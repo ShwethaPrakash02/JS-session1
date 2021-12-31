@@ -1,0 +1,11 @@
+#image {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tribute-info,
+#title,
+#img-caption {
+  text-align: center;
+}

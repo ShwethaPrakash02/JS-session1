@@ -1,0 +1,34 @@
+#description {
+  text-align: center;
+}
+#title {
+  text-align: center;
+  font-size: 42px;
+  color: #333333;
+}
+#survey-form {
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  margin-left: 20%;
+  background-color: hsl(0, 100%, 90%);
+  margin: auto;
+  width: 60%;
+  padding: 1%;
+}
+#name-label,
+#email-label,
+#number-label,
+#name,
+#email,
+#number,
+#dropdown,
+label,
+#comments {
+  margin-top: 30px;
+  padding: 10px;
+  width: 150px;
+  align: right;
+}
+button {
+  border: none;
+}
