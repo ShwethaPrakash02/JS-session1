@@ -20,6 +20,7 @@ body {
   padding: 0;
   position: relative;
   line-height: 1;
+  background-color: azure;
 }
 h3 {
   text-align: center;

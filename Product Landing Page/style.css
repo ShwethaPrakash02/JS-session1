@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.sci {
+  padding: 10px;
+  font-size: 30px;
+}
+.navbar {
+  background-color: black;
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+.navbar a {
+  text-decoration: none;
+}
+.video {
+  display: block;
+  margin: auto;
+}
+
+#features,
+#working,
+#pricing {
+  max-width: 70%;
+  margin: 0 auto;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > ol {
+  margin: 15px 0;
+  list-style-type: none;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+#form {
+  padding: 40px;
+}
+
+@media (max-width: 550px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
